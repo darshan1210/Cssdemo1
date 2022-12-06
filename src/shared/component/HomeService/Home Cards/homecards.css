@@ -1,0 +1,44 @@
+:root {
+    --background: #f01454
+}
+
+.HomeCard {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.HomeCard:hover {
+    background:rgb(250, 84, 139);
+    color: white
+}
+
+.HomeCardIcon {
+    font-size: 4rem;
+    margin-top: 20%;
+    color: var(--background);
+}
+
+.HomeCardTitle {
+    font-weight: bold;
+    margin: 5%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.HomeCardDiscription {
+    text-align: center;
+    width: 80%;
+    font-size: 1.6rem;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 720px) {
+    .HomeCard {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

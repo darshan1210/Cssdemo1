@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --background: #f01454
+}
+
+.home {
+    background-image: url(https://images.unsplash.com/photo-1617136505992-a93c80ac5852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home_heading {
+    color: white;
+    margin: 5% 5% 0 0;
+}
+
+.home_heading1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 800%;
+    letter-spacing: 7px;
+    line-height: 90px;
+}
+
+.home_heading2 {
+    text-align: right;
+    font-size: 200%;
+}
+
+.home_btn {
+    text-align: right;
+}
+
+.home_btn button {
+    padding: 10px 40px 10px 40px;
+    background: var(--background);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.home_btn button:hover {
+    background:rgb(230, 57, 115);
+    color: white;
+}

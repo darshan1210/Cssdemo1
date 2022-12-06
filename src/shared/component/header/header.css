@@ -1,0 +1,57 @@
+:root{
+    --background:#f01454
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     height: 10vh;
+}
+.logo_background{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 0 120px 0 0;
+}
+.nav a{
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    
+}
+.nav a:hover{
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #f01454;
+    border-radius: 3.3px;
+    
+}
+.nav .nav_btn{
+    margin-left: 20px;
+    text-transform: uppercase;
+    padding: 8px 12px 8px 12px;
+    font-size: .7em;
+    background: white;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.nav .nav_btn:hover{
+    background: var(--background);
+    color: white;
+    outline: 1px solid white;
+}

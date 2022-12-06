@@ -1,0 +1,20 @@
+.homeservices{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8% 0 8%;
+}
+
+@media screen and (max-width: 720px) {
+    .homeservices{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 8% 0 8%;
+    }
+    
+}
