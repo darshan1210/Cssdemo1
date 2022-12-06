@@ -15,7 +15,7 @@ function Services () {
 
                 <div className='ServicesCard'>
                     <div className='ServicesCardNumber'>
-                        992 <sup>+</sup>
+                        575 <sup>+</sup>
                     </div>
                     <div className='ServicesCardDiscription'>
                         The standard chunk of Lorem lpsum used since the 1500s is reproduced below for those
@@ -24,7 +24,7 @@ function Services () {
 
                 <div className='ServicesCard'>
                     <div className='ServicesCardNumber'>
-                        <span className='number'>992</span>  <sup>+</sup>
+                        <span className='number'>69</span>  <sup>+</sup>
                     </div>
                     <div className='ServicesCardDiscription'>
                         The standard chunk of Lorem lpsum used since the 1500s is reproduced below for those
